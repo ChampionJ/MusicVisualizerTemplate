@@ -86,7 +86,8 @@ public void LoadMusic(File selection) {
   //check to see if window was closed
   if (selection == null) {
     println("selection window closed");
-    //may wish to close program entirely here
+    //exit program
+    exit();
     
   } else {
     //get selection name
